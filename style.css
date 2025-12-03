@@ -22,10 +22,13 @@ body {
 
 .container {
     max-width: 900px;
-    margin: 0 auto;     /* Centrerar horisontellt, utvärtes */
+    margin: 0 auto;     /* Centrerar horisontellt, utvärtes. Auto betyder så stor som möjligt */
     padding: 20px;      /* Luft runt innehållet, invärtes */
     background: rgb(32, 32, 32);  
     text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(39, 54, 39);
 }
 
 .ingress {
@@ -33,6 +36,12 @@ body {
     font-style: italic;
     opacity: 0.9;
     font-size: 1.2rem;    
+}
+
+.text-container {
+    width: 70ch;
+    margin: 0 auto; 
+    text-align: left;
 }
 
 .video-container {
